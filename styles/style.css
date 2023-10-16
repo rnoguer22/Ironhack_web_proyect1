@@ -1,0 +1,48 @@
+@media(max-width: 750px){
+
+    body{
+        background-color: azure;
+    }
+
+    header{
+        display: flex;
+        background-color: black;
+        opacity: 80%;
+        border-radius: 10px;
+    }
+
+    .left-header{
+        width: 30%;
+        padding-bottom: 3px;
+    }
+
+    .left-header h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #hueco{
+        width: 5%;
+        background-color: azure;
+    }
+
+    .right-header{
+        width: 70%;
+    }
+
+    .right-header nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 5px;
+    }
+
+    .right-header nav ul a{
+        color: white;
+        font-size: 1rem;
+    }
+
+}
