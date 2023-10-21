@@ -185,6 +185,55 @@ h2{
     background-color: rgb(139, 185, 228);
 }
 
+.container p{
+    display: flex;
+    flex-direction: column;
+}
+
+#container-form{
+    margin-left: 25%;
+    margin-right: 10%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: rgb(62, 166, 166);
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+form input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+form textarea{
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+#submit:hover{
+    background-color: rgb(75, 120, 255);
+    color: whitesmoke;
+}
+
+#submit:active{
+    background-color: rgb(96, 75, 255);
+    color: whitesmoke;
+}
+
 footer h2{
     color: whitesmoke;
 }
@@ -364,6 +413,11 @@ footer h2{
 
     footer h2{
         color: whitesmoke;
+    }
+
+    #container-form{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 }
