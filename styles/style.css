@@ -190,6 +190,48 @@ h2{
     flex-direction: column;
 }
 
+#body-tortilla{
+    background-color: rgb(254, 251, 183);
+}
+
+#body-tortilla #hueco{
+    background-color: rgb(254, 251, 183);
+}
+
+#body-tortilla header nav a:hover{
+    border: 4px solid rgb(193, 146, 53);
+}
+
+#body-tortilla #form:hover{
+    color: rgb(193, 146, 53);
+    border: none;
+}
+
+#container-tortilla{
+    border: 2px solid rgb(193, 146, 53);
+}
+
+#intro-tortilla{
+    background-color: rgb(219, 211, 103);
+}
+
+#ingredientes-tortilla{
+    background-color: rgb(193, 146, 53);
+    color: whitesmoke;
+}
+
+#prep-tortilla{
+    background-color: goldenrod;
+}
+
+#prep-tortilla .elemento1{
+    background-color: rgb(252, 174, 100);
+}
+
+#prep-tortilla .elemento2{
+    background-color: rgb(255, 248, 143);
+}
+
 #container-form{
     margin-left: 25%;
     margin-right: 10%;
@@ -237,12 +279,6 @@ form textarea{
 footer h2{
     color: whitesmoke;
 }
-
-
-
-
-
-
 
 
 
